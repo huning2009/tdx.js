@@ -48,6 +48,9 @@ async function testApis() {
     console.log("---查询报价---")
     console.log(await api.getQuote(clientId, '600315'))
 
+    console.log("---列出所有连接客户端---")
+    console.log(await api.getActiveClients())
+
     // 登出
     response = await(api.logoff(clientId))
     console.log(response)
