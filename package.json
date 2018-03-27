@@ -1,6 +1,6 @@
 {
   "name": "tdx",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "JS version of pytdx ",
   "main": "index.js",
   "scripts": {
