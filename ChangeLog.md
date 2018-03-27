@@ -1,3 +1,6 @@
+## 0.1.3
+- add queryDatas, sendOrders, cancelOrders, getQuotes
+
 ## 0.1.2
 - add getActiveClients method on trade module
 - fix queryHistoryData call bug

@@ -71,6 +71,10 @@ testApis()
 - 撤单 cancelOrder(clientId, exchangeId, hth)
 - 行情查询 getQuote(clientId, code)
 - 融资融券账户直接还款 repay(clientId, amount)
+- 批量下单 sendOrders(clientId, orders)
+- 批量撤单 cancelOrders(clientId, orders)
+- 批量查询信息 queryDatas(clientId, categoires)
+- 批量行情查询 getQuotes(clientId, codes)
 
 
 
